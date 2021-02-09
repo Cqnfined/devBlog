@@ -1,0 +1,120 @@
+body {
+  background-image: url(https://www.itl.cat/pngfile/big/210-2101051_dark-web-scanning-background-image-for-website-of.jpg);
+}
+
+div.backgroundtext p {
+  background-color: white;
+  border: black solid 3px;
+  border-radius: 18px;
+  padding: 8px;
+}
+
+p,
+a,
+button,
+marquee {
+    font-size: 23px;
+    font-family: 'JetBrains Mono', monospace;
+    color: orange;
+}
+
+small {
+    font-size: 15px;
+    font-family: 'JetBrains Mono', monospace;
+    color: red;
+}
+
+li {
+    font-size: 20px;
+}
+
+ul {
+    color: red;
+}
+
+img {
+    height: 210px;
+    margin-left: 25px;
+    border: 5px dotted lightgreen;
+}
+
+/* Classses */
+
+li.hobbies:hover::after {
+    color: red;
+    background-color: gold;
+}
+
+.hobbie1:hover::after {
+    content: "I play games like Rainbow Six, Minecraft and more.";
+}
+
+.hobbie2:hover::after {
+    content: "I use  programs like Roblox Studio (LUA), repl.it and I want to work in Unity.";
+}
+
+.hobbie3:hover::after {
+    content: "I don't usually sleep a lot so I really like to sleep during the day.";
+}
+
+.hobbie4:hover::after {
+    content: "I just finished Seven Deadly Sins, and I am currently watching about 8 other anime.";
+}
+
+
+/* .header {
+    text-align: center;
+    background-color: orange;
+    font-weight: lighter;
+    text-decoration: underline;
+    border: solid 5px;
+    padding: 15px;
+    font-family: 'Langar', cursive;
+} */
+
+.lightblue:hover {
+    color: #add8e6;
+}
+
+.purple:hover {
+    color: #8B008B;
+}
+
+.pinkmagenta:hover {
+    color: #FF69B4;
+}
+
+.links:hover::after {
+    color: red;
+    background-color: gold;
+}
+
+.link0:hover::after {
+    content: "-- YouTube is very helpful for many things, entertainment, education and more.";
+}
+
+.link1:hover::after {
+    content: "-- Discord is a great place to talk to friends and even connect with long distance relatives if needed, like skype or phone call.";
+}
+
+.link2:hover::after {
+    content: "-- Repl-it is a good place to test out your code, theres many different code options there like Python, Lua, and JavaScript.";
+}
+
+.imageLarge:hover {
+  animation: 1.7s enlarge forwards;
+}
+
+.imageLarge {
+  filter: sepia(22%)
+}
+
+@keyframes enlarge {
+  from {
+    height: 210px;
+  }
+
+  to {
+    height: 300px;
+  }
+}
